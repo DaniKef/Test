@@ -14,6 +14,7 @@ namespace Test
             Type ageType = age.GetType();
             Type isHumanType = isHuman.GetType();
 
+            Console.WriteLine("---------------");
             Console.WriteLine("Name type is " + nameType.ToString());
             Console.WriteLine("Age type is " + ageType.ToString());
             Console.WriteLine("IsHuman type is " + isHumanType.ToString());
